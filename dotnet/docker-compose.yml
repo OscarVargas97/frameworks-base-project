@@ -1,0 +1,21 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    image: dotnet:${PROJECT_NAME}
+    container_name: ${PROJECT_NAME}_web
+    ports:
+      - "${DEV_PORT}:${ORIGINAL_PORT}"    
+    volumes:
+      - .:/app
+      - /usr/share/deviroment/container/fonts:/usr/share/fonts
+      - /usr/share/deviroment/container/zsh-sudo/:/usr/share/zsh-sudo/
+      - /usr/share/deviroment/container/powerlevel10k:/home/app/powerlevel10k
+      - /usr/share/deviroment/container/home/:/home/app/       
+    env_file:
+      - .env
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+
