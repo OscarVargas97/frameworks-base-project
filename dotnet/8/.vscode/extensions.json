@@ -1,0 +1,22 @@
+{
+    "recommendations": [
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-dotnettools.csharp",
+        "ms-vscode.csdevkit",
+        "streetsidesoftware.code-spell-checker",
+        "github.copilot",
+        "github.copilot-chat",
+        "bierner.markdown-preview-github-styles",
+        "eamodio.gitlens",
+        "visualstudioexptteam.vscodeintellicode",
+        "bierner.markdown-checkbox",
+        "bierner.markdown-emoji",
+        "bierner.markdown-footnotes",
+        "bierner.markdown-preview-mermaid",
+        "bierner.markdown-yaml-preamble",
+        "postman.postman",
+        "foxundermoon.shell-format",
+        "streetsidesoftware.code-spell-checker-spanish",
+        "ms-ceintl.vscode-language-pack-es"
+    ]
+}

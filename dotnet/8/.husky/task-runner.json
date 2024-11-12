@@ -1,0 +1,18 @@
+{
+   "$schema": "https://alirezanet.github.io/Husky.Net/schema.json",
+   "tasks": [
+      {
+         "name": "Linter",
+         "command": "dotnet",
+         "args": [
+            "format"
+         ],
+         "windows": {
+            "command": "dotnet",
+            "args": [
+               "format"
+            ]
+         }
+      }
+   ]
+}

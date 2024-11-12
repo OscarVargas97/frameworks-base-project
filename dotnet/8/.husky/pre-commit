@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Mensaje de inicio de hook
+echo 'Welcome to pre-commit git hook with Husky.Net'
+
+# Ejecuta la tarea específica de formato
+dotnet husky run --name Linter
